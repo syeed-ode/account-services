@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ad-campaign
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    ddl-auto: update

@@ -2,6 +2,8 @@ package com.syeedode.account.user;
 
 import com.syeedode.account.annotation.ThreadSafe;
 
+import java.util.UUID;
+
 /**
  * Account Services
  * <p>
@@ -17,7 +19,7 @@ public class UserResponse {
 
     /** Static factory method */
     public static UserResponse getInstance() {
-        return new UserResponse("Syeed", "Ode", "141db2ee-dac1-42dc-87fe-0d5bc52f3ddd");
+        return new UserResponse("UserServices", "UserServiceResource", UUID.randomUUID().toString());
     }
 
     /** Constructor */

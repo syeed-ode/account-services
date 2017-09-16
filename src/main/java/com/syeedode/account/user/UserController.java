@@ -17,7 +17,5 @@ public class UserController {
     @RequestMapping(value = "/user", method = RequestMethod.GET)
     public ResponseEntity<UserResponse> getAccount() {
         return ResponseEntity.ok(UserResponse.getInstance());
-        // 215-452-3376
-        // 314-452-3376
     }
 }

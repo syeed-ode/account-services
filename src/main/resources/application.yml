@@ -5,3 +5,10 @@ spring:
     password: root
     driverClassName: com.mysql.jdbc.Driver
     ddl-auto: update
+
+server:
+  port: 8443
+  ssl:
+    key-store:
+    key-store-password: changeit
+    key-password: changeit
